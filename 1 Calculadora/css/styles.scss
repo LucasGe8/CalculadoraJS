@@ -19,7 +19,7 @@ body{
 .calculator{
     position: relative;
     height: auto;
-    width: auto;
+    width: 33.75vh;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 30px rgb(187, 130, 130);
@@ -36,7 +36,8 @@ body{
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 800;
-    
+    overflow-y: auto;
+    white-space: nowrap;
     }
      //Dark Theme
      &.dark{
