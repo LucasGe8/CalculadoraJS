@@ -34,8 +34,9 @@ body{
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 800;
-    //Dark Theme
-    &.dark{
+    }
+     //Dark Theme
+     &.dark{
         background-color: #1B1B1B;
         #display{
             color: #f8fafb;
@@ -47,7 +48,7 @@ body{
         .btn-number{
             background-color: #83FDA6;
             color: black;
-            font-weight: 600;
+
         }
         .btn-operator{
             background-color: #F0DB4F;
@@ -58,7 +59,7 @@ body{
             color: #ffffff;
         }
     }
-    }
+
     button#clear{
         background-color: #ffd5d8;
         color: #fc4552;    
@@ -96,7 +97,7 @@ body{
         }
     }
 }
-.theme-toggler .active{
+.theme-toggler.active{
     color:#333;
     &::before{
         background-color: #fff;
@@ -110,7 +111,7 @@ button{
     margin: 5px;
     font-size: 20px;
     cursor: pointer;
-    transition : all 200ms ease; 
+    transition : all 500ms ease; 
     &:hover{
         transform: scale(1.1);
     }
