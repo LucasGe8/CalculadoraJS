@@ -14,6 +14,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 .calculator{
     position: relative;
@@ -23,6 +24,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 30px rgb(187, 130, 130);
     background-color: white;
+    transition : all 500ms ease; 
     #display{
     color: #0a1e23;
     margin: 0 10px;
@@ -34,12 +36,15 @@ body{
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 800;
+    
     }
      //Dark Theme
      &.dark{
         background-color: #1B1B1B;
+        transition : all 500ms ease; 
         #display{
             color: #f8fafb;
+            transition : all 500ms ease; 
         }
         #clear{
             background-color: #4C35AA;

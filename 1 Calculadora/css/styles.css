@@ -26,6 +26,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 30px rgb(187, 130, 130);
   background-color: white;
+  transition: all 500ms ease;
 }
 .calculator #display {
   color: #0a1e23;
@@ -41,9 +42,11 @@ body {
 }
 .calculator.dark {
   background-color: #1B1B1B;
+  transition: all 500ms ease;
 }
 .calculator.dark #display {
   color: #f8fafb;
+  transition: all 500ms ease;
 }
 .calculator.dark #clear {
   background-color: #4C35AA;
