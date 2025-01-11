@@ -5,7 +5,7 @@
     font-family: sans-serif ;
 }
 body{
-    background: linear-gradient(45deg, #f06291, #fffde7);
+    background: linear-gradient(45deg, #333, #fffde7);
 }
 .container{
     height: 100vh;
@@ -77,6 +77,9 @@ body{
     .btn-operator{
         background-color: #ffd0fb;
         color: #f967f3;
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
     }
     .btn-equal{
         background-color: #adf9e7;
@@ -121,5 +124,22 @@ button{
     &:hover{
         transform: scale(1.1);
     }
+}
+a{
+    &.volver{
+        position: absolute; /* Posiciona este elemento de manera absoluta */
+        top: 20px; /* Se mueve hacia arriba */
+        left: 20px; /* Se mueve hacia la izquierda */
+        padding: 10px;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #fff;
+        transition: 0.25s;
+    }
+}
+a:hover{
+    transform: scale(1.1);
+    transform: translateX(20px);
 }
 
